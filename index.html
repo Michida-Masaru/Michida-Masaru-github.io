@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>DIG プレゼンテーション</title>
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header> -->
+    <header id="header" class="header">
+      <nav class="navbar">
+        <h1 class="logo">DIG で Java Script!</h1>
+        <h3>
+          <ul class="menu">
+            <li><a href="#">準備</a></li>
+            <li><a href="#">授業</a></li>
+            <li><a href="#">演習</a></li>
+            <li><a href="#">関連サイト</a></li>
+          </ul>
+        </h3>
+      </nav>
+    </header>
+    <!-- </header> -->
+    <!-- <main> -->
+    <main class="main">
+      <section class="text-area">
+        <div class="text-only">
+          <h3 class="text-title">
+            【開始前】
+            <h4 class="text-sub-title"><感想></h4>
+            <p class="text">いよいよスタート！楽しみ！</p>
+            <h4 class="text-sub-title"><気づき></h4>
+            <p class="text">
+              Slack、GitHubなど知らないアプリやWeb？<br />調べるとSlackはもっとも使われているチャットアプリ！<br />GitHubはプログラマーをはじめ、ファイル共有の定番！
+            </p>
+            <h4 class="text-sub-title"><ポイント></h4>
+            <p class="text">GitHubでのファイルアップロード方法</p>
+          </h3>
+        </div>
+        <div class="figure">
+          <!-- 参考図1 -->
+          <img
+            id="mypic1"
+            onclick="slideshow1()"
+            src="pic11.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+      <section class="text-area">
+        <div class="text-only">
+          <h3 class="text-title">【１週目】</h3>
+          <h4 class="text-sub-title"><感想></h4>
+          <p class="text">基本から始まってよくわかる！楽しい！</p>
+          <h4 class="text-sub-title"><気づき></h4>
+          <p class="text">
+            データ型から条件分岐の基本から丁寧な解説でよくわかる<br />VBAなどで概念は理解していたつもりだった、、、
+            <br />javaScriptでひとつづつ動かし、演習で繰り返すと新たな気づきがあった。
+          </p>
+          <h4 class="text-sub-title"><ポイント></h4>
+          <p class="text">
+            条件分岐は何を判定し、何を動かしているのか、データ型を含めてひとつづ確認することが大事！
+          </p>
+        </div>
+        <div class="figure">
+          <!-- 参考図2 -->
+          <img
+            id="mypic2"
+            onclick="slideshow2()"
+            src="pic21.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+      <section class="text-area">
+        <div class="text-only">
+          <h3 class="text-title">【２週目】</h3>
+          <h4 class="text-sub-title"><感想></h4>
+          <p class="text">
+            関数、オブジェクトなど理解して覚えることが増えてきて少し大変！楽しい！
+          </p>
+          <h4 class="text-sub-title"><気づき></h4>
+          <p class="text">
+            ”考えて”、”理解して”、それから”演習”を繰り返し覚えることが大事<br />（コメントアウトのConsole.logが増えてきた。）
+          </p>
+          <h4 class="text-sub-title"><ポイント></h4>
+          <p class="text">
+            関数はインプット（引数）とアウトプット（返り値）にするか、データ型も含め考える！<br />返り値をresultで定義しする方法はわかりやすく、重宝。（簡単な関数で使うと行数ふえるので注意が必要）
+          </p>
+        </div>
+        <div class="figure">
+          <!-- 参考図3 -->
+          <img
+            id="mypic3"
+            onclick="slideshow3()"
+            src="pic31.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+      <section class="text-area">
+        <div class="text-only">
+          <h3 class="text-title">【３週目】</h3>
+          <h4 class="text-sub-title"><感想></h4>
+          <p class="text">
+            ループ文、複数の種類の関数、クロージャー、DOM、、いろいろでてきて混乱、でも楽しい！
+          </p>
+          <h4 class="text-sub-title"><気づき></h4>
+          <p class="text">
+            ループ文は対象（配列かオブジェクトかetc）や意図（解除が回数か条件か）を考えると理解できた。<br />関数が値として扱えることをあらためて認識できた。
+          </p>
+          <h4 class="text-sub-title"><ポイント></h4>
+          <p class="text">
+            ブロック、スコープにつづきクロージャーがでてきて塊が少し意識できる。<br />DOMでHTMLのJava
+            Scriptのつながりを意識、Nodeが大事！高階関数ではタイミングごとの返り値とそのタイプ、ではmapは、、、<br />
+          </p>
+        </div>
+        <div class="figure">
+          <img
+            id="mypic4"
+            onclick="slideshow4()"
+            src="pic41.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+      <section class="text-area">
+        <div class="text-only">
+          <h3 class="text-title">【４週目】</h3>
+          <h4 class="text-sub-title"><感想></h4>
+          <p class="text">
+            高位関数、配列オブジェクトどんどん複雑で大変！でも楽しい！
+          </p>
+          <h4 class="text-sub-title"><気づき></h4>
+          <p class="text">
+            ディベロッパーで中身の確認が少しずつ身についてきたかも<br />ブロックを意識することが大切！<br />クラスメイトのチャットでいろいろ気づき
+          </p>
+          <h4 class="text-sub-title"><ポイント></h4>
+          <p class="text">
+            高階関数ではタイミングごとの返り値とそのタイプ、ではmapは、、、<br />
+          </p>
+        </div>
+        <div class="figure">
+          <!-- 参考図5 -->
+          <img
+            id="mypic5"
+            onclick="slideshow5()"
+            src="pic51.jpg"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </section>
+
+      <br />
+    </main>
+    <footer class="footer">
+      <div>
+        <div>
+          <!-- MDNリンク -->
+          <img src="mdn_logo.svg" alt="MDN Web Docs ホームページ" /> -->
+          <a href="https://developer.mozilla.org/ja/"></a>
+        </div>
+        <div>
+          <!-- DIG -->
+          <img src="mdn_logo.svg" alt="DIG ホームページ" /> -->
+          <a
+            href="https://dig.codechrysalis.io/dayview/dig-fnd-17/20230606"
+          ></a>
+        </div>
+      </div>
+      <!-- 著者の情報 -->
+      <table class="table">
+        <tr>
+          <th>発　表　</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th>　番号　</th>
+          <td>004_masaru_michdia</td>
+        </tr>
+        <tr>
+          <th>　名前　</th>
+          <td>道田　賢</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
