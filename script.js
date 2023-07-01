@@ -55,7 +55,7 @@ function slideshow3() {
   document.getElementById("mypic3").src = pics_src3[num];
 }
 
-// // 画像４
+// //画像４
 let pics_src4 = new Array(
   "pic41.jpg",
   "pic42.jpg",
