@@ -15,14 +15,50 @@
     <header id="header" class="header">
       <nav class="navbar">
         <h1 class="logo">Java Script!</h1>
-        <h3>
+        <div class="menublock">
           <ul class="menu">
-            <li><a href="#">準備</a></li>
-            <li><a href="#">授業</a></li>
-            <li><a href="#">演習</a></li>
-            <li><a href="#">関連サイト</a></li>
-          </ul>
-        </h3>
+            <li class = "active" id ="menu1">
+              <a href="#">準備</a>
+              <div class="submenu">
+                <ul >
+                  <li><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript" target="_blank" rel="noreferrer">MDN</a></li>
+                  <li><a href="https://app.slack.com/client/T02DS9VKWLU/C051JD8MHS5" target="_blank" rel="noreferrer">SLACK</a></li>
+                  <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+                </ul>
+              </div>
+            </li>
+            <li id ="menu2"><a href="#">授業</a>
+            <div class="submenu">
+                <ul >
+                  <li><a href="https://dig.codechrysalis.io/login" target="_blank" rel="noreferrer"></a>DIG</li>
+                  <!-- <li><a href="" target="_blank" rel="noreferrer">VICERON</a></li> -->
+                  <li><a href="https://gist.github.com/" target="_blank" rel="noreferrer">GitGist</a></li>
+                </ul>
+              </div>
+            </li>
+            <li id ="menu3"><a href="#">自習</a>
+              <div class="submenu">
+                <ul >
+                  <li><a href="https://learn.microsoft.com/ja-jp/training/" target="_blank" rel="noreferrer">Microsoft Learn</a></li>
+                  <li><a href="https://eloquentjavascript.net/" target="_blank" rel="noreferrer">Eloquent JavaScript</a></li>
+                  <li><a href="https://www.codewars.com/" target="_blank" rel="noreferrer">Codewars</a></li>
+                  <li><a href="https://javascript30.com/" target="_blank" rel="noreferrer">JavaScript 30</a></li>
+                  <li><a href="https://cs50.harvard.edu/x/2023/" target="_blank" rel="noreferrer">Harvard's free</a></li>
+                  <li><a href="https://www.100daysofcode.com/" target="_blank" rel="noreferrer">100 days of code</a></li>
+                </ul>
+              </div>
+            </li>
+            <li id ="menu4"><a href="#">お役たちサイト</a>
+              <div class="submenu">
+                <ul >
+                  <li><a href="https://sushida.net/" rel="noreferrer">寿司打</a></li>
+                  <li><a href="" rel="noreferrer">準備中</a></li>
+                  <li><a href="" rel="noreferrer">準備中</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </ul>
       </nav>
     </header>
     <!-- </header> -->
@@ -67,8 +103,7 @@
           <h4 class="text-sub-title"><ポイント></h4>
           <p class="text">
             どう動いて判定しているのか、データ型を含めて確認が大事！
-            <br>関数シグネチャで整理！
-
+            <br />関数シグネチャで整理！
           </p>
         </div>
         <div class="figure">
@@ -98,7 +133,7 @@
           <p class="text">
             関数はインプット（引数）とアウトプット（返り値）にするか、データ型も含め考える！
             <br />返り値をresultで定義しする方法はわかりやすく、重宝。
-            <br>（行数は増えるので注意）
+            <br />（行数は増えるので注意）
           </p>
         </div>
         <div class="figure">
@@ -128,7 +163,7 @@
           <p class="text">
             ブロック、スコープにつづきクロージャーがでてきて塊が意識できる。
             <br />DOMでHTMLのJava　Scriptのつながりを意識するときNodeも大事！
-            <br>高階関数では階数ごとの返り値とそのタイプを意識
+            <br />高階関数では階数ごとの返り値とそのタイプを意識
           </p>
         </div>
         <div class="figure">
@@ -145,9 +180,7 @@
         <div class="text-only">
           <h3 class="text-title">【４週目】</h3>
           <h4 class="text-sub-title"><感想></h4>
-          <p class="text">
-            配列オブジェクトどんどん複雑で大変！でも楽しい！
-          </p>
+          <p class="text">配列オブジェクトどんどん複雑で大変！でも楽しい！</p>
           <h4 class="text-sub-title"><気づき></h4>
           <p class="text">
             ディベロッパーで中身の確認が少しずつ身についてきた。
