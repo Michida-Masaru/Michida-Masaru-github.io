@@ -111,7 +111,7 @@ nav ul li:hover .submenu ul li {
 }
 
 .text-sub-title {
-  background-color: rgb(186, 232, 159);
+  /* background-color: rgb(186, 232, 159); */
   padding: 0 5%;
 }
 .text {
